@@ -14,11 +14,11 @@ const { title, email, telegram, blog, twitter, mastodon, github } = useAppConfig
       >{{ title }}</a>
       <a
         class="mt-4 text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l sm:border-gray-200 sm:mt-0"
-        href="https://html.zone"
+        href="https://urix.cc"
         target="_blank"
-        title="HTML.ZONE"
+        title="URIx.cc"
       >
-        &copy; {{ new Date().getFullYear() }} Products of HTML.ZONE
+        &copy; {{ new Date().getFullYear() }} URIx.CC
       </a>
       <a 
         href="https://beian.miit.gov.cn/" 
@@ -40,57 +40,7 @@ const { title, email, telegram, blog, twitter, mastodon, github } = useAppConfig
             class="w-6 h-6"
           />
         </a>
-        <a
-          v-if="telegram"
-          :href="telegram"
-          target="_blank"
-          title="Telegram"
-          class="text-gray-400 hover:text-gray-500"
-        >
-          <span class="sr-only">{{ $t('layouts.footer.social.telegram') }}</span>
-          <TelegramIcon
-            class="w-6 h-6"
-          />
-        </a>
-        <a
-          v-if="blog"
-          :href="blog"
-          target="_blank"
-          title="Blog"
-          class="text-gray-400 hover:text-gray-500"
-        >
-          <span class="sr-only">{{ $t('layouts.footer.social.blog') }}</span>
-          <BloggerIcon
-            class="w-6 h-6"
-          />
-        </a>
-
-        <a
-          v-if="twitter"
-          :href="twitter"
-          target="_blank"
-          title="Twitter"
-          class="text-gray-400 hover:text-gray-500"
-        >
-          <span class="sr-only">{{ $t('layouts.footer.social.twitter') }}</span>
-          <XIcon
-            class="w-6 h-6"
-          />
-        </a>
-
-        <a
-          v-if="mastodon"
-          :href="mastodon"
-          target="_blank"
-          title="Mastodon"
-          class="text-gray-400 hover:text-gray-500"
-        >
-          <span class="sr-only">{{ $t('layouts.footer.social.mastodon') }}</span>
-          <MastodonIcon
-            class="w-6 h-6"
-          />
-        </a>
-
+        
         <a
           v-if="github"
           :href="github"
