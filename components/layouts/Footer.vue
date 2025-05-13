@@ -20,6 +20,12 @@ const { title, email, telegram, blog, twitter, mastodon, github } = useAppConfig
       >
         &copy; {{ new Date().getFullYear() }} Products of HTML.ZONE
       </a>
+      <a 
+        href="https://beian.miit.gov.cn/" 
+        class="mt-4 text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l sm:border-gray-200 sm:mt-0" 
+        target="_blank">
+        粤ICP备15015487号
+      </a>
       <span
         class="inline-flex justify-center mt-4 space-x-5 sm:ml-auto sm:mt-0 sm:justify-start"
       >
