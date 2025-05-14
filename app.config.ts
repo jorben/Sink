@@ -1,6 +1,6 @@
 export default defineAppConfig({
   title: 'URIX-短链接',
-  email: 'jorbenzhu@gmail.com',
+  email: 'bin@aix.com',
   github: 'https://github.com/jorben/sink',
   twitter: 'https://sink.cool/kai',
   telegram: 'https://sink.cool/telegram',
